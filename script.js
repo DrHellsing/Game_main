@@ -1,4 +1,3 @@
-console.log("script loaded");
 const cardsData = [
   { id: 1, type: "Link", content: "Хоробрий герой у зеленому, обраний долею" },
   {
@@ -50,7 +49,7 @@ const cardsData = [
     id: 5,
     type: "image",
     content:
-      "images/file/Baldurs-Gate-3/laezel.png"
+      "images/laezel.png"
   },
 
   { id: 6, type: "Wyll", content: "Мисливець на демонів із контрактом сили" },
@@ -240,4 +239,3 @@ document.getElementById("restartBtn").addEventListener("click", restartGame);
 updateScore();
 updateTimer();
 render();
-console.log("render finished");
