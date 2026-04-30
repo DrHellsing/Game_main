@@ -1,5 +1,5 @@
 const cardsData = [
-  { id: 1, type: "Link", content: "Хоробрий герой у зеленому, обраний долею" },
+  { id: 1, type: "text", content: "Хоробрий герой у зеленому, обраний долею" },
   {
     id: 1,
     type: "image",
@@ -8,7 +8,7 @@ const cardsData = [
   },
 
   // MARIO
-  { id: 2, type: "Mario", content: "Відомий водопровідник, що рятує принцесу" },
+  { id: 2, type: "text", content: "Відомий водопровідник, що рятує принцесу" },
   {
     id: 2,
     type: "image",
@@ -18,7 +18,7 @@ const cardsData = [
 
   {
     id: 3,
-    type: "Astarion",
+    type: "text,
     content: "Вампір-відступник із харизматичною поведінкою"
   },
   {
@@ -42,7 +42,7 @@ const cardsData = [
 
   {
     id: 5,
-    type: "Leyzel",
+    type: "text",
     content: "Воїнка-гитьянкі, сувора та дисциплінована"
   },
   {
@@ -52,7 +52,7 @@ const cardsData = [
       "images/laezel.png"
   },
 
-  { id: 6, type: "Wyll", content: "Мисливець на демонів із контрактом сили" },
+  { id: 6, type: "text", content: "Мисливець на демонів із контрактом сили" },
   {
     id: 6,
     type: "image",
@@ -60,7 +60,7 @@ const cardsData = [
       "images/wyll-avatar.png"
   },
 
-  { id: 7, type: "Dude", content: "Антигерой із хаотичним способом життя" },
+  { id: 7, type: "text", content: "Антигерой із хаотичним способом життя" },
   {
     id: 7,
     type: "image",
@@ -70,7 +70,7 @@ const cardsData = [
 
   {
     id: 8,
-    type: "Nameless One",
+    type: "text",
     content:
       "Безіменний мандрівник із Планів, проклятий безсмертям і втратою пам’яті після кожної смерті"
   },
