@@ -4,7 +4,7 @@ const cardsData = [
     id: 1,
     type: "image",
     content:
-      "https://cdn.wikimg.net/en/zeldawiki/images/thumb/f/fc/EoW_Link_Render.png/312px-EoW_Link_Render.png"
+      "images/312px-EoW_Link_Render.png"
   },
 
   // MARIO
@@ -13,7 +13,7 @@ const cardsData = [
     id: 2,
     type: "image",
     content:
-      "https://mario.wiki.gallery/images/thumb/0/0d/MarioAlternateJamboreeRender.png/180px-MarioAlternateJamboreeRender.png"
+      "images/180px-MarioAlternateJamboreeRender.png"
   },
 
   {
@@ -25,7 +25,7 @@ const cardsData = [
     id: 3,
     type: "image",
     content:
-      "https://baldursgate3.wiki.fextralife.com/file/Baldurs-Gate-3/astariont-avatar.png"
+      "images/astariont-avatar.png"
   },
 
   {
@@ -37,7 +37,7 @@ const cardsData = [
     id: 4,
     type: "image",
     content:
-      "https://mario.wiki.gallery/images/thumb/2/27/SuperMarioParty_Waluigi.png/225px-SuperMarioParty_Waluigi.png"
+      "images/225px-SuperMarioParty_Waluigi.png"
   },
 
   {
@@ -49,7 +49,7 @@ const cardsData = [
     id: 5,
     type: "image",
     content:
-      "https://baldursgate3.wiki.fextralife.com/file/Baldurs-Gate-3/laezel.png"
+      "images/file/Baldurs-Gate-3/laezel.png"
   },
 
   { id: 6, type: "Wyll", content: "Мисливець на демонів із контрактом сили" },
@@ -57,7 +57,7 @@ const cardsData = [
     id: 6,
     type: "image",
     content:
-      "https://baldursgate3.wiki.fextralife.com/file/Baldurs-Gate-3/wyll-avatar.png"
+      "images/wyll-avatar.png"
   },
 
   { id: 7, type: "Dude", content: "Антигерой із хаотичним способом життя" },
@@ -65,7 +65,7 @@ const cardsData = [
     id: 7,
     type: "image",
     content:
-      "https://static.wikia.nocookie.net/postal/images/a/a8/Postal_Dude-P2R.jpg"
+      "images/Postal_Dude-P2R.jpg"
   },
 
   {
@@ -78,7 +78,7 @@ const cardsData = [
     id: 8,
     type: "image",
     content:
-      "https://static.wikia.nocookie.net/forgottenrealms/images/4/43/Nameless_One.png"
+      "images/Nameless_One.jpg"
   }
 ];
 
