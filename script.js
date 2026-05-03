@@ -22,7 +22,7 @@ const cardsData = [
   {
     id: 3,
     type: "image",
-    content:"images/astariont-avatar.png"
+    content: "images/astariont-avatar.png"
   },
 
   {
@@ -33,7 +33,7 @@ const cardsData = [
   {
     id: 4,
     type: "image",
-    content:"images/225px-SuperMarioParty_Waluigi.png"
+    content: "images/225px-SuperMarioParty_Waluigi.png"
   },
 
   {
@@ -44,37 +44,32 @@ const cardsData = [
   {
     id: 5,
     type: "image",
-    content:
-      "images/laezel.png"
+    content: "images/laezel.png"
   },
 
   { id: 6, type: "text", content: "Мисливець на демонів із контрактом сили" },
   {
     id: 6,
     type: "image",
-    content:
-      "images/wyll-avatar.png"
+    content: "images/wyll-avatar.png"
   },
 
   { id: 7, type: "text", content: "Антигерой із хаотичним способом життя" },
   {
     id: 7,
     type: "image",
-    content:
-      "images/Postal_Dude-P2R.jpg"
+    content: "images/Postal_Dude-P2R.jpg"
   },
-
   {
     id: 8,
     type: "text",
-    content:
-      "Безіменний мандрівник із Планів, проклятий безсмертям і втратою пам’яті після кожної смерті"
+    content: "Безіменний мандрівник із Планів, проклятий безсмертям і втратою пам’яті після кожної смерті"
   },
   {
     id: 8,
     type: "image",
-    content:
-      "images/Nameless_One.jpg"
+    content: "images/Nameless_One.jpg"
+     
   }
 ];
 
