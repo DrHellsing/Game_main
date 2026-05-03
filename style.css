@@ -8,14 +8,16 @@ body {
 
 h1 {
   font-size: 28px;
+}
 #game-board {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(65px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 8px;
   width: 100%;
-  max-width: 100%;
+  max-width: 420px;
   margin: 20px auto;
 }
+
 #message {
   margin-top: 15px;
   font-size: 22px;
@@ -24,11 +26,12 @@ h1 {
 
 .card {
   aspect-ratio: 1 / 1.2;
+  min-height: 90px;
   background: white;
   color: black;
   border: 2px solid #ccc;
   border-radius: 10px;
-  padding: 6px;
+  padding: 4px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -36,7 +39,7 @@ h1 {
   text-align: center;
   overflow: hidden;
   transition: 0.2s;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .card img {
@@ -93,15 +96,15 @@ button:hover {
   }
 
   h1 {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   h2, h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   button {
-    font-size: 14px;
-    padding: 8px 12px;
+    font-size: 13px;
+    padding: 8px 10px;
   }
 }
