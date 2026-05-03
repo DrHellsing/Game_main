@@ -12,12 +12,11 @@ h1 {
 
 #game-board {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
   gap: 10px;
-  max-width: 420px;
+  max-width: 500px;
   margin: 20px auto;
 }
-
 #message {
   margin-top: 15px;
   font-size: 22px;
