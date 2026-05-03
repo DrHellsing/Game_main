@@ -3,8 +3,7 @@ const cardsData = [
   {
     id: 1,
     type: "image",
-    content:
-      "images/312px-EoW_Link_Render.png"
+    content: "images/312px-EoW_Link_Render.png"
   },
 
   // MARIO
@@ -12,20 +11,18 @@ const cardsData = [
   {
     id: 2,
     type: "image",
-    content:
-      "images/180px-MarioAlternateJamboreeRender.png"
+    content: "images/180px-MarioAlternateJamboreeRender.png"
   },
 
   {
     id: 3,
-    type: "text,
+    type: "text",
     content: "Вампір-відступник із харизматичною поведінкою"
   },
   {
     id: 3,
     type: "image",
-    content:
-      "images/astariont-avatar.png"
+    content:"images/astariont-avatar.png"
   },
 
   {
@@ -36,8 +33,7 @@ const cardsData = [
   {
     id: 4,
     type: "image",
-    content:
-      "images/225px-SuperMarioParty_Waluigi.png"
+    content:"images/225px-SuperMarioParty_Waluigi.png"
   },
 
   {
