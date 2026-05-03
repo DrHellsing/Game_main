@@ -73,12 +73,7 @@ button:hover {
 }
 
 @media (min-width: 768px) {
-  #game-board {
-    grid-template-columns: repeat(4, 1fr);
-    max-width: 700px;
-  }
-
-  .card {
+.card {
     font-size: 16px;
   }
 }
