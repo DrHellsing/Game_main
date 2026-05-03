@@ -10,11 +10,12 @@ body {
   gap: 10px;
   justify-content: center;
   margin-top: 20px;
-  #message {
-    margin-top: 15px;
-    font-size: 22px;
-    font-weight: bold;
-  }
+}
+
+#message {
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .card {
@@ -50,16 +51,7 @@ body {
   opacity: 0.7;
   cursor: default;
 }
-<h1>Match Game</h1>
 
-<h2 id="score">Score: 0</h2>
-<h3 id="timer">Time: 60</h3>
-
-<button id="restartBtn">Restart</button>
-
-<h2 id="message"></h2>
-
-<div id="game-board"></div>
 button {
   margin: 5px;
   padding: 8px 14px;
