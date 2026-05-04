@@ -116,8 +116,11 @@ function render() {
     card.classList.add("card");
     card.dataset.id = item.id;
 
-  if (!gameStarted) {
-  card.textContent = "?";
+ if (!gameStarted) {
+  const img = document.createElement("img");
+  img.src = "images/logo.png";
+  img.classList.add("cover-img");
+  card.appendChild(img);
 } else {
   if (item.type === "image") {
     const img = document.createElement("img");
