@@ -86,11 +86,11 @@ let gameStarted = false;
 let gameOver = false;
 
 function updateScore() {
-  document.getElementById("score").textContent = "Score: " + score;
+  document.getElementById("score").textContent = "Рахунок: " + score;
 }
 
 function updateTimer() {
-  document.getElementById("timer").textContent = "Time: " + time;
+  document.getElementById("timer").textContent = "Час: " + time;
 }
 
 function showMessage(text) {
