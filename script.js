@@ -78,6 +78,7 @@ let second = null;
 let lock = false;
 
 let score = 0;
+let startTime = 0;
 let time = 60;
 let interval = null;
 
@@ -115,13 +116,17 @@ function render() {
     card.classList.add("card");
     card.dataset.id = item.id;
 
-    if (item.type === "image") {
-      const img = document.createElement("img");
-      img.src = item.content;
-      card.appendChild(img);
-    } else {
-      card.textContent = item.content;
-    }
+  if (!gameStarted) {
+  card.textContent = "?";
+} else {
+  if (item.type === "image") {
+    const img = document.createElement("img");
+    img.src = item.content;
+    card.appendChild(img);
+  } else {
+    card.textContent = item.content;
+  }
+}
 
     card.addEventListener("click", () => selectCard(card));
 
@@ -130,9 +135,14 @@ function render() {
 }
 
 function selectCard(card) {
-  if (!gameStarted || gameOver || lock || card.classList.contains("matched"))
-    return;
-
+  if (
+    !gameStarted ||
+    gameOver ||
+    lock ||
+    card.classList.contains("matched") ||
+    card === first
+  ) return;
+  
   card.classList.add("selected");
 
   if (!first) {
@@ -173,7 +183,8 @@ function checkWin() {
   if (matched === cardsData.length) {
     gameOver = true;
     clearInterval(interval);
-    showMessage("🎉 Перемога!");
+    const seconds = Math.floor((Date.now() - startTime) / 1000);
+showMessage("🎉 Перемога! Час: " + seconds + " сек");
   }
 }
 
@@ -187,7 +198,8 @@ function startTimer() {
     if (time <= 0) {
       gameOver = true;
       clearInterval(interval);
-      showMessage("💀 Поразка!");
+     const seconds = Math.floor((Date.now() - startTime) / 1000);
+showMessage("💀 Поразка! Минуло: " + seconds + " сек");
     }
   }, 1000);
 }
@@ -197,10 +209,12 @@ function startGame() {
 
   gameStarted = true;
   gameOver = false;
+  startTime = Date.now();
 
   showMessage("");
-
   render();
+
+  clearInterval(interval);
   startTimer();
 }
 
@@ -209,6 +223,7 @@ function restartGame() {
 
   score = 0;
   time = 60;
+  startTime = 0;
 
   first = null;
   second = null;
