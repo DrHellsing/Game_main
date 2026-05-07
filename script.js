@@ -108,8 +108,8 @@ function clearBoard() {
 function render() {
   clearBoard();
 
-  const board = document.getElementById("game-board");
- const images = shuffle(cardsData.filter(item => item.type === "image"));
+const board = document.getElementById("game-board");
+const images = shuffle(cardsData.filter(item => item.type === "image"));
 const texts = shuffle(cardsData.filter(item => item.type === "text"));
 
 const shuffled = [
