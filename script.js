@@ -109,7 +109,14 @@ function render() {
   clearBoard();
 
   const board = document.getElementById("game-board");
-  const shuffled = shuffle([...cardsData]);
+ const images = shuffle(cardsData.filter(item => item.type === "image"));
+const texts = shuffle(cardsData.filter(item => item.type === "text"));
+
+const shuffled = [
+  ...images.slice(0, 4),
+  ...texts,
+  ...images.slice(4)
+];
 
   shuffled.forEach((item) => {
     const card = document.createElement("div");
