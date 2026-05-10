@@ -6,7 +6,6 @@ const cardsData = [
     content: "images/Rihter.png"
   },
 
-  // MARIO
   { id: 2, type: "text", content: "О-о-х, люблю цю пору року. Де не поглянь, з'являються придурки." },
   {
     id: 2,
@@ -171,11 +170,16 @@ function selectCard(card) {
 
     checkWin();
   } else {
-    setTimeout(() => {
-      first.classList.remove("selected");
-      second.classList.remove("selected");
-      reset();
-    }, 600);
+   setTimeout(() => {
+  first.classList.add("wrong");
+  second.classList.add("wrong");
+
+  setTimeout(() => {
+    first.classList.remove("selected", "wrong");
+    second.classList.remove("selected", "wrong");
+    reset();
+  }, 500);
+}, 300);
   }
 }
 
