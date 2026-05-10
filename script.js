@@ -1,75 +1,72 @@
 const cardsData = [
-  { id: 1, type: "text", content: "Хоробрий герой у зеленому, обраний долею" },
+  { id: 1, type: "text", content: "Краще води з річки сьорбнути, ніж пойла місцевого частування." },
   {
     id: 1,
     type: "image",
-    content: "images/312px-EoW_Link_Render.png"
+    content: "images/Rihter.png"
   },
 
   // MARIO
-  { id: 2, type: "text", content: "Відомий водопровідник, що рятує принцесу" },
+  { id: 2, type: "text", content: "О-о-х, люблю цю пору року. Де не поглянь, з'являються придурки." },
   {
     id: 2,
     type: "image",
-    content: "images/180px-MarioAlternateJamboreeRender.png"
+    content: "images/Karlach.png"
   },
 
   {
     id: 3,
-    type: "text",
-    content: "Вампір-відступник із харизматичною поведінкою"
+    type: "text", content: "Мені так подобається, коли ти простакам елементарні речі пояснюєш!"
   },
   {
     id: 3,
     type: "image",
-    content: "images/astariont-avatar.png"
+    content: "images/John.png"
   },
 
   {
     id: 4,
-    type: "text",
-    content: "Довгов'язий суперник у фіолетовому костюмі"
+    type: "text", content: "Щойно прозвучали настанови «Як стати легендою»."
   },
   {
     id: 4,
     type: "image",
-    content: "images/225px-SuperMarioParty_Waluigi.png"
+    content: "images/Johnny.png"
   },
 
   {
     id: 5,
     type: "text",
-    content: "Воїнка-гитьянкі, сувора та дисциплінована"
+    content: "Я шляхетний пан. Шляхта не працює! Що, як хтось мене побачить?"
   },
   {
     id: 5,
     type: "image",
-    content: "images/laezel.png"
+    content: "images/Jan.png"
   },
 
-  { id: 6, type: "text", content: "Мисливець на демонів із контрактом сили" },
+  { id: 6, type: "text", content: "Я теж «у-у-у». Але я також «ї-ї-ї»! А отже, «ї-ї-ї» врівноважує «у-у-у»." },
   {
     id: 6,
     type: "image",
-    content: "images/wyll-avatar.png"
+    content: "images/Eskie.png"
   },
 
-  { id: 7, type: "text", content: "Антигерой із хаотичним способом життя" },
+  { id: 7, type: "text", content: "Я насолоджуюся некорисністю сьогодні й готую свою корисність на завтра." },
   {
     id: 7,
     type: "image",
-    content: "images/Postal_Dude-P2R.jpg"
+    content: "images/Gustav.png"
   },
   {
     id: 8,
     type: "text",
-    content: "Безіменний мандрівник із Планів, проклятий безсмертям і втратою пам’яті після кожної смерті"
+    content: "Я зголоднів."
   },
   {
     id: 8,
     type: "image",
-    content: "images/Nameless_One.jpg"
-     
+    content: "images/Henry.png"
   }
 ];
 
